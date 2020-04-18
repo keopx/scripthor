@@ -73,6 +73,14 @@ class Handler {
   }
 
   /**
+   * Remove simlinks.
+   */
+  public function removeSymlinks() {
+    $this->io->write('Scripthor remove start.');
+    $this->io->write('Scripthor remove finished.');
+  }
+
+  /**
    * Create script directory.
    *
    * @return bool
